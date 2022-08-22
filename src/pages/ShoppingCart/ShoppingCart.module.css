@@ -1,0 +1,38 @@
+.container {
+    padding: 30px 15%;
+}
+
+.wrapper {
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: var(--white);
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3px;
+    font-size: 15px;
+    line-height: 1;
+    opacity: .7;
+    transition: all .3s ease;
+}
+
+.btn:hover,
+.btn:hover>svg>path {
+    color: var(--blue);
+    fill: var(--blue);
+}
+
+.topPart,
+.bottomPart {
+    display: flex;
+    justify-content: space-between;
+}

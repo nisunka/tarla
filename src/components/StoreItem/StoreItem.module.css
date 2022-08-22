@@ -1,0 +1,48 @@
+.card {
+    max-width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title {
+    margin-bottom: 4px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.price {
+    margin-bottom: 12px;
+    font-size: 14px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.count {
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+    padding: 11px 6px;
+    width: 15px;
+    line-height: 0;
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+.btn {
+    gap: 5px;
+}

@@ -1,0 +1,27 @@
+.container {
+    padding-left: var(--container-form-padding);
+    padding-right: var(--container-form-padding);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.topHead,
+.bottomHead {
+    display: flex;
+    justify-content: space-between;
+}
+
+.topHead {
+    margin-bottom: 10px;
+}
+
+.bottomHead {
+    margin-bottom: 15px;
+}
+
+.body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}

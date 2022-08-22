@@ -1,0 +1,27 @@
+.container {
+    padding-left: var(--container-form-padding);
+    padding-right: var(--container-form-padding);
+    padding-top: 38px;
+    padding-bottom: 38px;
+    display: flex;
+    gap: 47px;
+    align-items: center;
+}
+
+.descr {
+    font-family: 'Roboto';
+    font-size: 33px;
+    line-height: 40px;
+}
+
+.rightSide {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.img {
+    width: 50%;
+    border-radius: 35px;
+}

@@ -1,0 +1,60 @@
+.container {
+    padding-left: var(--container-form-padding);
+    padding-right: var(--container-form-padding);
+    padding-top: 31px;
+    padding-bottom: 31px;
+    background-color: var(--peach);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+
+.leftSide {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 21px;
+}
+
+.title {
+    font-family: 'Roboto';
+    font-size: 66px;
+    line-height: 70px;
+}
+
+.description {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.rightSide {
+    width: 60%;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.btn,
+.btn:visited {
+    padding: 18px 66px;
+    font-family: 'Roboto';
+    font-size: 20px;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid var(--black);
+    border-radius: 35px;
+    color: var(--black);
+    transition: color .3s ease, background-color .3s ease, border-color .3s ease;
+}
+
+.btn:hover {
+    color: var(--white);
+    background-color: rgba(158, 152, 146, .3);
+    border-color: #4A4A4A;
+}

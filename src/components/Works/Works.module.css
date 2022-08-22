@@ -1,0 +1,49 @@
+.container {
+    padding-left: var(--container-form-padding);
+    padding-right: var(--container-form-padding);
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
+
+.title {
+    font-family: 'Roboto';
+    font-size: 43px;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.worksList {
+    display: flex;
+    gap: 40px;
+
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item>svg {
+    width: 68px;
+    height: 68px;
+    margin-bottom: 15px;
+}
+
+.itemTitle {
+    width: 70%;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 27px;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    white-space: pre-line;
+}
+
+.itemDescr {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
