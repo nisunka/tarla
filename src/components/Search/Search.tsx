@@ -1,7 +1,23 @@
 import React from 'react';
+import style from './Search.module.css';
 
-const Search = () => {
-  return <div>Search</div>;
+interface ISearch {
+  setSearchValue: any;
+  searchValue: string;
+}
+
+const Search = ({ setSearchValue, searchValue }: ISearch) => {
+  return (
+    <>
+      <input
+        onChange={(event) => setSearchValue(event.target.value)}
+        value={searchValue}
+        className={style.input}
+        type="text"
+        placeholder="search..."
+      />
+    </>
+  );
 };
 
 export default Search;
